@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Enquiry</legend>
+    Name: <input type="text" name="name" value="" placeholder="enter your name here"/>
+    <br> 
+    <br>
+    <!-- textarea paid teag hain supose ye apna space show krta hain  -->
+    Address: <textarea name="Address"></textarea>
+    <br> 
+    <br>
+    Gender:
+    <input  type="radio" value="m" name="Gender" checked> Male
+     <input type="radio" value="f" name="Gender"/> Famele
+     <input type="radio" value="o" name="Gender"/> other
+     <br>
+     <br>
+     country:
+     <select>
+        <optgroup label="ASIA"></optgroup>
+        <option>Please Select a country</option>
+        <option value="India">India</option>
+         <option value="shri lanka">Shri lanka</option>
+        <option value="USA">USA</option>
+
+     </select>
+     <br>
+     <br>
+     Hobbies:
+     <input type="checkbox" name="Hobbies"[] checked> Dancing
+     <input type="checkbox" name="Hobbies"[]> music
+     <input type="checkbox" name="Hobbies"[]> music
+
+     <br>
+     <br>
+     image:
+     <input type="file" name="image">
+     <br>
+     <br>
+     <input type="submit" value="send"> 
+     <input type="reset" value="reset"> 
+    </fieldset>
+</form>
+</body>
+</html>
